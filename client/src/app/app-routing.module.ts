@@ -4,13 +4,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { AuthGuard } from './gaurds/index';
 
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { HomeComponent } from './components/home/home.component';
 import { AlertComponent } from './components/alert/alert.component';
 
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
-  { path: '', pathMatch: 'full', redirectTo: 'home'},
   { path: '**', component: PageNotFoundComponent }
 //  { path: '**', redirectTo: '' }
 ];
@@ -24,6 +21,5 @@ const routes: Routes = [
     ]
 })
 export class AppRoutingModule { }
-export const routedComponents: any[] = [
-    HomeComponent, PageNotFoundComponent, AlertComponent
+export const routedComponents: any[] = [ PageNotFoundComponent, AlertComponent
 ];
