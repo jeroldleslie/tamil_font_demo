@@ -10,7 +10,7 @@ import { AlertService, QuestionService } from '../../../services/index';
 export class QuestionFormComponent implements OnInit {
 
   content:string;
-  private config = {};
+  config = {};
 
   constructor(@Inject(MD_DIALOG_DATA) public data: any,
   public dialogRef: MdDialogRef<QuestionFormComponent>,
