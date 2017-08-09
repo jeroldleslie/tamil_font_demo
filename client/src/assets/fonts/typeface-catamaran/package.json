@@ -1,0 +1,44 @@
+{
+  "_from": "typeface-catamaran",
+  "_id": "typeface-catamaran@0.0.35",
+  "_inBundle": false,
+  "_integrity": "sha512-DflBbJuwROCJh6PLDCVl25xesUSFNM0UwUhVinvNFrXqBn5e3mj2+dbuoqW41Ia5+bcduAYFrmi4uxV63k/LjA==",
+  "_location": "/typeface-catamaran",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "typeface-catamaran",
+    "name": "typeface-catamaran",
+    "escapedName": "typeface-catamaran",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/typeface-catamaran/-/typeface-catamaran-0.0.35.tgz",
+  "_shasum": "adc22bc0d2486749f49c95fd6513425bee908b38",
+  "_spec": "typeface-catamaran",
+  "_where": "/Users/leslie/workspace/tamil_app_demo/tamil-app-demo",
+  "author": {
+    "name": "Kyle Mathews",
+    "email": "mathews.kyle@gmail.com"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Catamaran typeface",
+  "keywords": [
+    "typeface",
+    "font",
+    "font family",
+    "google fonts",
+    "catamaran"
+  ],
+  "license": "MIT",
+  "main": "index.css",
+  "name": "typeface-catamaran",
+  "version": "0.0.35"
+}

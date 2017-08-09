@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Madurai';
+    src: url('./madurai/madurai.ttf');
+    src: local('Madurai'), url('./madurai/madurai.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

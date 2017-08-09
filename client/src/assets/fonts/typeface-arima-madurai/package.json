@@ -1,0 +1,44 @@
+{
+  "_from": "typeface-arima-madurai",
+  "_id": "typeface-arima-madurai@0.0.35",
+  "_inBundle": false,
+  "_integrity": "sha512-B5GzJkTz9f+QLja60avV6Ka9EJNmqqvFJZdLhYz5JX37+bRXvMhzCYD6FfqP3LXgJPeuvzPoFmwzmlQ7qHQB1Q==",
+  "_location": "/typeface-arima-madurai",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "typeface-arima-madurai",
+    "name": "typeface-arima-madurai",
+    "escapedName": "typeface-arima-madurai",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/typeface-arima-madurai/-/typeface-arima-madurai-0.0.35.tgz",
+  "_shasum": "a53ff474df00cfbe8b7ac7cc08768dcd1e84b06a",
+  "_spec": "typeface-arima-madurai",
+  "_where": "/Users/leslie/workspace/tamil_app_demo/tamil-app-demo",
+  "author": {
+    "name": "Kyle Mathews",
+    "email": "mathews.kyle@gmail.com"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Arima Madurai typeface",
+  "keywords": [
+    "typeface",
+    "font",
+    "font family",
+    "google fonts",
+    "arima-madurai"
+  ],
+  "license": "MIT",
+  "main": "index.css",
+  "name": "typeface-arima-madurai",
+  "version": "0.0.35"
+}

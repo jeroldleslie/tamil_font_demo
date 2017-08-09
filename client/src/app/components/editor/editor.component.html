@@ -1,0 +1,29 @@
+<div fxLayout="column" fxLayoutGap="10px" fxFlex>
+    <!-- <div fxLayout="column" fxLayoutGap="10px" fxLayoutAlign="end center">
+        <div fxLayout="row" fxLayoutGap="10px" style="padding:18px;">
+            <md-select placeholder="Language" [(ngModel)]="selectedLang">
+                <md-option *ngFor="let lang of languages" [value]="lang.value">
+                    {{ lang.viewValue }}
+                </md-option>
+            </md-select>
+        </div>
+        <ckeditor [(ngModel)]="content" [config]="config" [readonly]="false" (change)="onChange($event)" (ready)="onReady($event)" (focus)="onFocus($event)" (blur)="onBlur($event)" debounce="500">
+        </ckeditor>
+        <div>
+            <button md-raised-button color="primary" (click)="onClick()">Save</button>
+        </div>
+    </div> -->
+    <div fxLayout="column" fxLayoutGap="10px" style="padding:20px;">
+
+        <div fxLayout="row" fxLayoutGap="20px" fxLayoutAlign="end center">
+            <md-select placeholder="Language" [(ngModel)]="selectedValue">
+                <md-option *ngFor="let lang of languages" [value]="lang.value">
+                    {{ lang.viewValue }}
+                </md-option>
+            </md-select>
+            <button md-raised-button color="accent" (click)="onClick()">Add Question</button>
+        </div>
+        <question *ngFor="let q of questions;let i = index" [index]="i + 1" [question]="q" (deleted)="onDelete($event)">
+        </question>
+    </div>
+</div>
